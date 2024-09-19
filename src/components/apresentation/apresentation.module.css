@@ -1,0 +1,40 @@
+.apresentation{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.text_conteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.little_text{
+    font-size: clamp(12px, 1.2vw, 120px);
+}
+.medium_text{
+    font-size: clamp(16px, 1.6vw, 160px);
+    font-weight: 600;
+}
+
+.big_text1{
+    font-size: clamp(50px, 5vw, 500px); 
+    line-height: 0.9;
+    font-weight: bolder;
+}
+.big_text2{
+    font-size: clamp(50px, 5vw, 500px); 
+    line-height: 0.9;
+    text-align: end;
+    font-weight: bolder;
+    margin-bottom: 3%;
+}
+.paragraph{
+    font-size: clamp(10px, 1vw, 120px);
+}
+
+.img_conteiner{
+
+}
