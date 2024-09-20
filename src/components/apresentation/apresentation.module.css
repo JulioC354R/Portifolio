@@ -1,7 +1,6 @@
 .apresentation{
     display: flex;
     align-items: center;
-    width: 50%;
     margin-top: 5%;
     overflow: hidden;
 }
@@ -9,32 +8,46 @@
 .text_conteiner{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .little_text{
-    font-size: clamp(12px, 1.2vw, 120px);
+    font-size: clamp(8px, 1.2vw, 120px);
 }
 .medium_text{
-    font-size: clamp(16px, 1.6vw, 160px);
+    font-size: clamp(10px, 1.6vw, 160px);
     font-weight: 600;
 }
 
 .big_text1{
-    font-size: clamp(50px, 5vw, 500px); 
+    font-size: clamp(15px, 4vw, 500px); 
     line-height: 0.9;
     font-weight: bolder;
 }
 .big_text2{
-    font-size: clamp(50px, 5vw, 500px); 
+    font-size: clamp(20px, 5vw, 500px); 
     line-height: 0.9;
-    text-align: end;
     font-weight: bolder;
     margin-bottom: 3%;
+    margin-left: 30%;
 }
 .paragraph{
+    margin-bottom: 2%;
     font-size: clamp(10px, 1vw, 120px);
 }
 
-.img_conteiner{
+.button{
+    margin-right: 80%;
+}
 
+
+.img_conteiner{
+    margin-left: 10% ;
+}
+
+.img_conteiner img{
+    width: 70%;
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 50%;
 }

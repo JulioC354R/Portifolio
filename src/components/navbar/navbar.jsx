@@ -1,6 +1,6 @@
 import styles from "./navbar.module.css"
 import Image from "next/image";
-import logo from "./../../app/images/logo.png"
+import logo from "./../../images/logo.png"
 import Button from "../button/button";
 
 
