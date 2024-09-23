@@ -2,7 +2,7 @@ import styles from "./apresentation.module.css"
 import Button from "../button/button"
 import Image from "next/image";
 import foto from "./../../images/foto1.jpg"
-import SocialIcons from "../social_icons/socialIcons";
+import SocialIcons from "../socialIcons/socialIcons";
 /* Colocar os icons seguindo esse Objeto
 */
 export default function Apresentation () {
@@ -20,7 +20,7 @@ export default function Apresentation () {
             </div>
             <div className={styles.img_conteiner}>
                 <Image className={styles.image1} src={foto} layout="responsive" />
-                <SocialIcons></SocialIcons>
+                <SocialIcons/>
             </div>
         </section>
     )

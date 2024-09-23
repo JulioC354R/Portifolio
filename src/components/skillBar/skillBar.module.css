@@ -1,0 +1,27 @@
+.skill {
+    margin-bottom: 2%;
+  }
+  
+  .skill span {
+    font-size: clamp(8px, 1.2vw, 120px);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px; /* Ajuste de margem */
+  }
+  
+  .skillBar {
+    background-color: #ffffff; /* Cor de fundo da barra */
+    border-radius: 25px;
+    height: 0.8vw; 
+    width: 100%; 
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .skillLevel {
+    height: 100%;
+    background-color: #FD6F00; 
+    transition: width 1s ease-in-out; 
+    border-radius: 25px;
+  }
+  

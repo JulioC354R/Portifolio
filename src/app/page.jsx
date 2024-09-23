@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar/navbar";
 import Apresentation from "@/components/apresentation/apresentation";
-
+import Summary from "@/components/summary/summary";
 //implementar o Router e o Link
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
     <body>
     <Navbar/>
     <Apresentation/>
+    <Summary/>
     </body>
     
   );

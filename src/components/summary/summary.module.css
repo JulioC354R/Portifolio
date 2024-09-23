@@ -1,0 +1,27 @@
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.imageConteiner{
+    height: auto;
+    width: 40%;
+    border-radius: 50%;
+    margin-right: 5%;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.summaryTittle{
+    font-size: clamp(20px, 4vw, 500px);
+    font-weight: bold;
+}
+
+.summaryText{
+    font-size: clamp(10px, 1vw, 500px);
+    margin-bottom: 3%;
+
+}
+

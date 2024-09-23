@@ -4,14 +4,15 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap: 5%;
+    gap: 10%;
+    margin-top: 3%;
 }
 
 .icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4vw;
+    width: 2.5vw;
     height: auto;
     margin: 20%;
 }
